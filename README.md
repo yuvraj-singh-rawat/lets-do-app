@@ -16,4 +16,3 @@ A simple and clean Todo Application built using React.js that allows users to ad
 - CSS3
 - LocalStorage API
 ---
-#### 📸 Preview
