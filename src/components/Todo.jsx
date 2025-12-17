@@ -7,6 +7,7 @@ const Todo = () => {
 
   const inputRef = useRef();
 
+  // Add To DO
   const addTodo = () => {
     const inputText = inputRef.current.value.trim();
 
@@ -23,6 +24,7 @@ const Todo = () => {
     inputRef.current.value = "";
   };
 
+  // Delete Todo
   const deleteTodo = (id) => {
     setTodoList((prevTodos) => {
       return prevTodos.filter((todo) => todo.id !== id);
